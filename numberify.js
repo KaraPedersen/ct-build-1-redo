@@ -1,8 +1,4 @@
-export default numberify() => {
+export default numberify(arr) => {
   const n = numberify('100');
-typeof n
-
-const stringAsNumber = Number(n)
-
-typeof stringAsNumber
-}
+  return { Number(arr) };
+};
