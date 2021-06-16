@@ -1,1 +1,5 @@
-export const numberify = (str) => {}; 
+export const numberify = (str) => {
+  
+
+  return Number(str);
+}; 
